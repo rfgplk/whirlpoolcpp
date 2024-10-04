@@ -4,7 +4,7 @@ This is a single header implementation of a branchless version of the Whirlpool 
 This was written due to an almost complete lack of good whirlpool implementations in C++.
 
 
-To verify for correctness, run `ninja build_verify && verify.py` (might take a while!).
+To verify for correctness, run `ninja build_verify && python3 verify.py` (might take a while!).
 
 Based on P.S.L.M. Barreto \& V. Rijmen's NESSIE submission.
 
